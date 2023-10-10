@@ -106,7 +106,7 @@ function App() {
           <h4 id="session-label">Session Length</h4>
           <TimeSetter
             time={sessionTime}
-            setTime={changeBreakTime}
+            setTime={changeSessionTime}
             min={min}
             max={max}
             interval={interval}
